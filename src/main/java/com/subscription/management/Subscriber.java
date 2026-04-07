@@ -29,6 +29,9 @@ public class Subscriber {
     // Setters - to modify private fields
     public void setActive(boolean active) { this.active = active; }
     public void setMonthsRemaining(int monthsRemaining) { this.monthsRemaining = monthsRemaining; }
+    public void setPlan(Plan plan) {
+        this.plan = plan;
+    }
 
     // toString method - to display object better in console
 @Override
